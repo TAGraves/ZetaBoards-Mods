@@ -1,0 +1,5 @@
+class mellow(models.Model):
+	repper = models.CharField(max_length=30)
+	repped = models.CharField(max_length=30)
+	reason = models.CharField(max_length=100)
+	date = models.CharField(max_length=30)
